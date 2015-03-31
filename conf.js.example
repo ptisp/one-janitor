@@ -1,9 +1,10 @@
 module.exports = {
-  'hypervisors': [{
-    'id': '1',
-    'address': 'hv1.mycloud'
-  }, {
-    'id': '2',
-    'address': 'hv2.mycloud'
-  }]
+  'hypervisors': {
+    '1': {
+      'address': 'hv1.mycloud'
+    },
+    '2': {
+      'address': 'hv2.mycloud'
+    }
+  }
 };

@@ -9,11 +9,13 @@ It will connect to your hypervisors via SSH and to your ONE via ONE addon-nodejs
 
 ## Usage
 
+* Rename and edit conf.js.example
 * npm install
 * node main.js
 
 ## Notes
 
+* Hypervisor list is automatically loaded from OpenNebula, hypervisors addresses my be overwritten using conf.js if needed. (different, unreachable network)
 * SSH key is automatically loaded from the default path. (home/.ssh/id_rsa)
 * SSH port by default is 22 but it may be specified using env variable JPORT
 * Passphrase is asked on runtime
